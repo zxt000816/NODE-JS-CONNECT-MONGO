@@ -24,7 +24,7 @@ db.<collection name>.deleteOne({name: "yifan"})
 db.<collection name>.deleteMany({name: "yifan"})
 db.<collection name>.drop()
 
-### Intermediate commands
+## Intermediate commands
 ### count the number of searched result
 db.<collection name>.find({name: "yifan"}).count()
 
